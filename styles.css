@@ -143,12 +143,14 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background: transparent;
+    box-shadow: none;
 }
 
 .store-badge-image {
-    width: min(100%, 360px);
+    width: min(100%, 260px);
     height: auto;
-    filter: drop-shadow(0 12px 22px rgba(36, 127, 123, 0.18));
+    filter: drop-shadow(0 8px 16px rgba(18, 32, 37, 0.08));
 }
 
 .hero-note,
@@ -538,9 +540,12 @@ a {
         font-size: clamp(2.2rem, 9vw, 3.2rem);
     }
 
-    .store-pill,
+    .store-pill {
+        width: auto;
+    }
+
     .store-badge-image {
-        width: 100%;
+        width: min(100%, 220px);
     }
 
     .feature-phones {
