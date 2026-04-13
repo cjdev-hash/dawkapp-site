@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DawkApp | Bezpieczniej dawkuj leki</title>
+    <title>DawkApp | Bezpiecznie dawkuj leki</title>
     <meta
         name="description"
-        content="Poznaj DawkApp. Ciepla aplikacja do pilnowania dawek, przypomnien i planow dla calej rodziny."
+        content="Poznaj DawkApp. Twoje leki pod pełną kontrolą. Monitorowanie dawek, kalkulator, historia i wersja Premium."
     >
     <meta name="theme-color" content="#39b0aa">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -23,105 +23,137 @@
                 <span class="brand-wordmark">DawkApp</span>
             </a>
 
-            <nav class="site-nav" aria-label="Glowna nawigacja">
-                <a href="#top" class="is-active">Glowna</a>
-                <a href="#features">Mozliwosci</a>
+            <nav class="site-nav" aria-label="Główna nawigacja">
+                <a href="#top" class="is-active">Główna</a>
+                <a href="#mozliwosci">Możliwości</a>
                 <a href="#premium">Premium</a>
-                <a href="#download">Pobierz</a>
+                <a href="#pobierz">Pobierz</a>
             </nav>
         </div>
     </header>
 
     <main id="top">
         <section class="hero-section">
-            <div class="shell hero-layout">
-                <div class="hero-phone-wrap">
-                    <img src="assets/hero-phone.jpg" alt="Podglad aplikacji DawkApp" class="hero-phone">
+            <div class="shell hero-card">
+                <div class="hero-visual">
+                    <img src="assets/hero-phone.jpg" alt="Podgląd aplikacji DawkApp na telefonie" class="hero-phone">
                 </div>
 
                 <div class="hero-copy">
-                    <h1>Poznaj DawkApp. Twoje leki pod pe&#322;n&#261; kontrol&#261;.</h1>
+                    <h1>Poznaj DawkApp. Twoje leki pod pełną kontrolą.</h1>
 
                     <a
-                        class="play-cta"
+                        class="store-pill"
                         href="https://play.google.com/store/apps/details?id=com.dobradawka.app"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Pobierz DawkApp z Google Play"
                     >
-                        Zdob&#261;d&#378; w Google Play
+                        <span class="store-badge">
+                            <span class="store-badge-kicker">ZDOBĄDŹ W</span>
+                            <span class="store-badge-name">Google Play</span>
+                        </span>
                     </a>
 
                     <p class="hero-note">
-                        DawkApp wspiera organizacj&#281; leczenia i przypomnie&#324;, ale nie stanowi porady medycznej,
-                        diagnozy ani substytutu konsultacji z lekarzem lub farmaceut&#261;.
+                        *DawkApp wspiera organizację leczenia i przypomnień, ale nie stanowi porady medycznej,
+                        diagnozy ani substytutu konsultacji z lekarzem lub farmaceutą.
                     </p>
                 </div>
             </div>
         </section>
 
-        <section id="features" class="wide-section">
+        <section id="mozliwosci" class="section">
             <div class="shell">
                 <h2 class="section-title">Dlaczego DawkApp?</h2>
 
-                <div class="why-layout">
-                    <article class="why-column">
-                        <div class="why-icon">R</div>
-                        <h3>Monitoruj dla ca&#322;ej rodziny</h3>
-                        <p>Monitoruj dawkowanie dla wielu bliskich w jednym spokojnym miejscu.</p>
+                <div class="features-layout">
+                    <article class="feature-card">
+                        <div class="feature-icon placeholder-icon" aria-hidden="true">PNG 128×128</div>
+                        <h3>Monitoruj dla całej rodziny</h3>
+                        <p>
+                            Monitoruj dawkowanie dla nielimitowanej liczby osób.
+                            Zaawansowane dla opiekunów i wieku.
+                        </p>
                     </article>
 
-                    <div class="why-phones" aria-hidden="true">
-                        <img src="assets/screen-calendar.jpg" alt="" class="phone-shot phone-shot-front">
-                        <img src="assets/screen-database.jpg" alt="" class="phone-shot phone-shot-back">
+                    <div class="feature-phones" aria-label="Podgląd ekranów aplikacji">
+                        <img src="assets/screen-calendar.jpg" alt="Widok osi dawkowania w DawkApp" class="feature-phone feature-phone-left">
+                        <img src="assets/screen-database.jpg" alt="Widok listy leków w DawkApp" class="feature-phone feature-phone-right">
                     </div>
 
-                    <article class="why-column">
-                        <div class="why-icon">H</div>
-                        <h3>Bezpieczniejsza historia</h3>
-                        <p>Masz pod r&#281;k&#261; dawki, profile i porz&#261;dek, kiedy trzeba szybko sprawdzi&#263; plan leczenia.</p>
+                    <article class="feature-card">
+                        <div class="feature-icon placeholder-icon" aria-hidden="true">PNG 128×128</div>
+                        <h3>Bezpieczna Historia</h3>
+                        <p>
+                            Generowanie i eksportowanie pobranych szczegółowych
+                            raportów dla lekarza.
+                        </p>
                     </article>
+                </div>
+
+                <div class="feature-middle-copy">
+                    <div class="feature-mini-card">
+                        <div class="feature-icon placeholder-icon small" aria-hidden="true">PNG 128×128</div>
+                        <div>
+                            <h3>Precyzyjny Kalkulator</h3>
+                            <p>Zaawansowane obliczenia na podstawie ciała.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="premium" class="premium-section">
+        <section id="premium" class="section premium-section">
             <div class="shell">
-                <h2 class="section-title">Zwi&#281;ksz kontrol&#281; z DawkApp Premium</h2>
+                <h2 class="section-title">Zwiększ Kontrolę z DawkApp Premium</h2>
 
-                <div class="premium-box">
-                    <div class="premium-box-title">Premium</div>
+                <div class="premium-panel">
+                    <div class="premium-heading">Premium</div>
 
                     <div class="premium-grid">
-                        <div class="premium-list-col">
-                            <div class="premium-item">
-                                <strong>Pe&#322;na obs&#322;uga rodziny:</strong>
-                                <span>Monitoruj dawkowanie dla wielu bliskich bez ogranicze&#324; plan&#243;w.</span>
+                        <div class="premium-column">
+                            <div class="premium-point">
+                                <strong>Pełna Obsługa Rodziny:</strong>
+                                <span>Monitoruj dawkowanie dla nielimitowanej liczby osób.</span>
                             </div>
 
-                            <div class="premium-item">
-                                <strong>Kontrola interakcji lek&#243;w:</strong>
-                                <span>Pomocnicze alerty o potencjalnych konfliktach i limitach.</span>
-                            </div>
-
-                            <div class="premium-item">
-                                <strong>Zaawansowane raporty:</strong>
-                                <span>Raporty PDF i wygodniejsza organizacja historii przyj&#281;&#263;.</span>
+                            <div class="premium-point premium-illustrated">
+                                <div class="premium-art placeholder-icon wide" aria-hidden="true">PNG 220×180</div>
+                                <div>
+                                    <strong>Kontrola Interakcji Leków:</strong>
+                                    <span>Automatyczne alerty o potencjalnych konfliktach lekowych.</span>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="premium-preview-col">
-                            <div class="premium-preview">
-                                <img src="assets/screen-tools.jpg" alt="Podglad narzedzi Premium w DawkApp">
+                        <div class="premium-column premium-column-right">
+                            <div class="premium-point premium-with-shot">
+                                <div>
+                                    <strong>Inteligentny Kalkulator Dawki (Premium):</strong>
+                                    <span>Zaawansowane obliczenia na podstawie parametrów ciała i wieku.</span>
+                                </div>
+                                <img src="assets/screen-tools.jpg" alt="Podgląd narzędzi Premium w DawkApp" class="premium-shot">
                             </div>
-                            <div class="premium-preview">
-                                <img src="assets/screen-database.jpg" alt="Podglad bazy lekow w DawkApp">
+
+                            <div class="premium-point premium-with-shot">
+                                <div>
+                                    <strong>Wbudowana Baza z ChPL (Pełny dostęp):</strong>
+                                    <span>Dostęp do pełnych charakterystyk produktów leczniczych.</span>
+                                </div>
+                                <img src="assets/screen-database.jpg" alt="Podgląd bazy leków w DawkApp" class="premium-shot">
+                            </div>
+
+                            <div class="premium-point">
+                                <strong>Zaawansowane Raporty (Premium):</strong>
+                                <span>Generowanie i eksportowanie szczegółowych raportów dla lekarza.</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="premium-cta-row">
                         <a
-                            class="soft-button"
+                            class="premium-button"
                             href="https://play.google.com/store/apps/details?id=com.dobradawka.app"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -133,33 +165,42 @@
             </div>
         </section>
 
-        <section id="download" class="download-section">
+        <section id="pobierz" class="section download-section">
             <div class="shell download-shell">
-                <h2 class="section-title">Pobierz DawkApp ju&#380; dzi&#347;</h2>
+                <h2 class="section-title">Pobierz DawkApp Już Dziś</h2>
 
                 <div class="download-row">
                     <a
-                        class="play-cta compact"
+                        class="store-badge standalone"
                         href="https://play.google.com/store/apps/details?id=com.dobradawka.app"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Pobierz DawkApp z Google Play"
                     >
-                        Zdob&#261;d&#378; w Google Play
+                        <span class="store-badge-kicker">ZDOBĄDŹ W</span>
+                        <span class="store-badge-name">Google Play</span>
                     </a>
 
                     <img src="assets/logo.png" alt="Logo DawkApp" class="download-logo">
                 </div>
 
-                <p class="download-copy">Zadbaj o spokojniejsze dawkowanie bliskich z DawkApp.</p>
+                <p class="download-copy">Zadbaj o zdrowie bliskich z DawkApp.</p>
             </div>
         </section>
     </main>
 
     <footer class="site-footer">
         <div class="shell footer-shell">
-            <a href="privacy.html">Polityka Prywatnosci</a>
-            <a href="mailto:cjdevski@gmail.com">Kontakt</a>
-            <span>&copy; 2026 DawkApp</span>
+            <p class="footer-disclaimer">
+                *DawkApp wspiera organizację leczenia i przypomnień, ale nie stanowi porady medycznej,
+                diagnozy ani substytutu konsultacji z lekarzem lub farmaceutą.
+            </p>
+
+            <div class="footer-links">
+                <a href="privacy.html">Polityka Prywatności</a>
+                <a href="mailto:cjdevski@gmail.com">Kontakt</a>
+                <span>© 2024 DawkApp</span>
+            </div>
         </div>
     </footer>
 </body>
