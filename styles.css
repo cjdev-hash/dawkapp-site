@@ -283,11 +283,22 @@ a {
     border-radius: 34px;
 }
 
+.hero-art-image {
+    width: min(100%, 190px);
+    height: auto;
+    margin: 0 auto;
+    filter: drop-shadow(0 18px 26px rgba(15, 43, 49, 0.16));
+}
+
 .art-screen {
     position: absolute;
     width: 185px;
     min-height: 330px;
     border-radius: 30px;
+}
+
+.feature-art-image {
+    box-shadow: 0 18px 30px rgba(15, 43, 49, 0.14);
 }
 
 .art-screen-front {
@@ -627,6 +638,10 @@ a {
         width: min(100%, 160px);
         min-height: 310px;
         border-radius: 28px;
+    }
+
+    .hero-art-image {
+        width: min(100%, 160px);
     }
 
     .feature-card {
