@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DawkApp | Bezpiecznie dawkuj leki</title>
+    <title>DawkApp | Bezpieczne dawkowanie dla rodziny</title>
     <meta
         name="description"
-        content="Poznaj DawkApp. Twoje leki pod pełną kontrolą. Monitorowanie dawek, kalkulator, historia i wersja Premium."
+        content="Poznaj DawkApp. Twoje leki pod pełną kontrolą. Monitorowanie dawek, kalkulator, historia i funkcje Premium dla całej rodziny."
     >
     <meta name="theme-color" content="#39b0aa">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/favicon-logo.png">
-    <link rel="apple-touch-icon" href="assets/favicon-logo.png">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="site-header">
         <div class="shell nav-shell">
             <a class="brand" href="#top" aria-label="DawkApp">
-                <img src="assets/logo.png" alt="Logo DawkApp" class="brand-logo">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 64 64" class="brand-mark-svg">
+                        <path d="M20 12c-6.6 0-12 5.4-12 12 0 15.1 19.6 28 24 28 4.4 0 24-12.9 24-28 0-6.6-5.4-12-12-12-4.9 0-8.2 2.3-12 6.5C28.2 14.3 24.9 12 20 12Z"></path>
+                    </svg>
+                </span>
                 <span class="brand-wordmark">DawkApp</span>
             </a>
 
@@ -37,7 +41,11 @@
         <section class="hero-section">
             <div class="shell hero-card">
                 <div class="hero-visual">
-                    <img src="assets/hero-phone.jpg" alt="Podgląd aplikacji DawkApp na telefonie" class="hero-phone">
+                    <div class="art-placeholder art-phone" aria-label="Placeholder grafiki telefonu">
+                        <span class="art-label">Placeholder PNG</span>
+                        <strong>900 × 1800</strong>
+                        <span>transparent / front app mockup</span>
+                    </div>
                 </div>
 
                 <div class="hero-copy">
@@ -73,12 +81,11 @@
                         <article class="feature-card">
                             <div class="feature-icon" aria-hidden="true">
                                 <svg viewBox="0 0 64 64" class="feature-icon-svg">
-                                    <circle cx="22" cy="20" r="7"></circle>
-                                    <circle cx="42" cy="20" r="7"></circle>
-                                    <circle cx="32" cy="31" r="8"></circle>
-                                    <path d="M10 50c0-7 5-12 12-12s12 5 12 12"></path>
-                                    <path d="M30 50c0-8 5-14 12-14s12 6 12 14"></path>
-                                    <path d="M20 50c0-8 5-14 12-14s12 6 12 14"></path>
+                                    <circle cx="22" cy="20" r="6"></circle>
+                                    <circle cx="42" cy="20" r="6"></circle>
+                                    <circle cx="32" cy="30" r="7"></circle>
+                                    <path d="M12 49c1.8-6.2 6.1-9.8 12-9.8S34.2 42.8 36 49"></path>
+                                    <path d="M28 49c1.8-6.8 6.7-11 14-11 4.2 0 7.8 1.4 10 4.2"></path>
                                 </svg>
                             </div>
                             <h3>Monitoruj dla całej rodziny</h3>
@@ -88,30 +95,38 @@
                         <article class="feature-card">
                             <div class="feature-icon" aria-hidden="true">
                                 <svg viewBox="0 0 64 64" class="feature-icon-svg">
-                                    <path d="M32 10 48 16v14c0 11-6.8 19.7-16 24-9.2-4.3-16-13-16-24V16Z"></path>
-                                    <path d="M24 31h16"></path>
-                                    <path d="M32 23v16"></path>
+                                    <path d="M32 11 48 17v13c0 10.6-6.6 19.2-16 23.5C22.6 49.2 16 40.6 16 30V17Z"></path>
+                                    <path d="M25 31h14"></path>
+                                    <path d="M32 24v14"></path>
                                 </svg>
                             </div>
                             <h3>Bezpieczna historia</h3>
-                            <p>Zapisywanie szczegółowej historii dawkowania i możliwość eksportowania w postaci raportów dla lekarzy.</p>
+                            <p>Zapisywanie szczegółowej historii dawkowania i możliwość eksportowania raportów dla lekarzy.</p>
                         </article>
                     </div>
 
-                    <div class="feature-phones" aria-label="Podgląd ekranów aplikacji">
-                        <img src="assets/screen-calendar.jpg" alt="Widok osi dawkowania w DawkApp" class="feature-phone feature-phone-left">
-                        <img src="assets/screen-database.jpg" alt="Widok listy leków w DawkApp" class="feature-phone feature-phone-right">
+                    <div class="feature-phones" aria-label="Placeholder pod ekrany aplikacji">
+                        <div class="art-placeholder art-screen art-screen-front">
+                            <span class="art-label">Placeholder PNG</span>
+                            <strong>900 × 1800</strong>
+                            <span>screen 01 / transparent</span>
+                        </div>
+                        <div class="art-placeholder art-screen art-screen-back">
+                            <span class="art-label">Placeholder PNG</span>
+                            <strong>900 × 1800</strong>
+                            <span>screen 02 / transparent</span>
+                        </div>
                     </div>
 
                     <article class="feature-card">
                         <div class="feature-icon" aria-hidden="true">
                             <svg viewBox="0 0 64 64" class="feature-icon-svg">
-                                <rect x="14" y="12" width="36" height="40" rx="6"></rect>
-                                <path d="M22 22h20"></path>
-                                <path d="M22 31h6"></path>
-                                <path d="M22 40h6"></path>
-                                <path d="M42 31v13"></path>
-                                <path d="M35.5 37.5H48.5"></path>
+                                <rect x="15" y="12" width="34" height="40" rx="6"></rect>
+                                <path d="M23 22h18"></path>
+                                <path d="M23 31h7"></path>
+                                <path d="M23 40h7"></path>
+                                <path d="M41 31v13"></path>
+                                <path d="M34.5 37.5h13"></path>
                             </svg>
                         </div>
                         <h3>Precyzyjny kalkulator</h3>
@@ -123,22 +138,23 @@
 
         <section id="premium" class="section premium-section">
             <div class="shell">
-                <h2 class="section-title">Zwiększ Kontrolę z DawkApp Premium</h2>
+                <h2 class="section-title">Zwiększ kontrolę z DawkApp Premium</h2>
 
                 <div class="premium-panel">
                     <div class="premium-heading">Premium</div>
-
-                    <div class="premium-intro">
-                        <p class="premium-lead">
-                            DawkApp Premium to rozszerzony pakiet dla osób, które chcą prowadzić leczenie rodziny
-                            bardziej szczegółowo, wygodniej i bez ograniczeń planu darmowego.
-                        </p>
-                    </div>
+                    <p class="premium-lead">
+                        Rozszerzony pakiet dla osób, które chcą prowadzić leczenie rodziny dokładniej,
+                        bez limitów planu darmowego i z wygodniejszą organizacją historii.
+                    </p>
 
                     <div class="premium-story">
                         <article class="premium-row">
                             <div class="premium-media">
-                                <img src="assets/screen-database.jpg" alt="Rozszerzona baza leków w DawkApp Premium" class="premium-media-shot">
+                                <div class="art-placeholder art-wide">
+                                    <span class="art-label">Placeholder PNG</span>
+                                    <strong>1200 × 900</strong>
+                                    <span>kafelek / baza leków / transparent</span>
+                                </div>
                             </div>
                             <div class="premium-copy">
                                 <span class="premium-tag">Rozszerzona baza</span>
@@ -147,68 +163,60 @@
                                     Premium odblokowuje rozszerzoną i stale rozwijaną bazę leków oraz wygodniejszy
                                     dostęp do pełnych informacji o produktach leczniczych.
                                 </p>
-                                <ul class="premium-bullets">
-                                    <li>szersza baza pozycji niż w planie darmowym,</li>
-                                    <li>dostęp do pełnych charakterystyk produktów leczniczych,</li>
-                                    <li>szybsze sprawdzanie szczegółów podczas codziennego dawkowania.</li>
-                                </ul>
                             </div>
                         </article>
 
                         <article class="premium-row premium-row-reverse">
                             <div class="premium-media">
-                                <img src="assets/screen-calendar.jpg" alt="Współdzielone plany leczenia w DawkApp Premium" class="premium-media-shot">
+                                <div class="art-placeholder art-wide">
+                                    <span class="art-label">Placeholder PNG</span>
+                                    <strong>1200 × 900</strong>
+                                    <span>kafelek / plan rodzinny / transparent</span>
+                                </div>
                             </div>
                             <div class="premium-copy">
                                 <span class="premium-tag">Plany rodzinne</span>
-                                <h3>Nieograniczone plany i łatwiejsza współpraca z rodziną</h3>
+                                <h3>Nieograniczone plany i wygodniejsze współdzielenie</h3>
                                 <p>
                                     W aplikacji plan darmowy ogranicza liczbę własnych i współdzielonych planerów.
-                                    Premium znosi te limity i otwiera wygodniejsze zarządzanie leczeniem wielu osób.
+                                    Premium znosi te limity i ułatwia zarządzanie leczeniem wielu osób.
                                 </p>
-                                <ul class="premium-bullets">
-                                    <li>brak limitu planów leczenia,</li>
-                                    <li>brak limitu dołączania do planów innych osób,</li>
-                                    <li>udostępnianie planera rodzinie w ramach funkcji Premium.</li>
-                                </ul>
                             </div>
                         </article>
 
                         <article class="premium-row">
                             <div class="premium-media">
-                                <img src="assets/screen-tools.jpg" alt="Raporty i narzędzia Premium w DawkApp" class="premium-media-shot">
+                                <div class="art-placeholder art-wide">
+                                    <span class="art-label">Placeholder PNG</span>
+                                    <strong>1200 × 900</strong>
+                                    <span>kafelek / raport PDF / transparent</span>
+                                </div>
                             </div>
                             <div class="premium-copy">
-                                <span class="premium-tag">Raporty i organizacja</span>
-                                <h3>Szczegółowa historia dawkowania i eksport raportów PDF</h3>
+                                <span class="premium-tag">Raporty</span>
+                                <h3>Szczegółowa historia dawkowania i eksport PDF</h3>
                                 <p>
-                                    Premium pomaga lepiej dokumentować przebieg leczenia i przygotowywać czytelne
-                                    podsumowania, które można później przekazać lekarzowi.
+                                    Premium pomaga lepiej dokumentować przebieg leczenia i przygotowywać raporty,
+                                    które można później przekazać lekarzowi.
                                 </p>
-                                <ul class="premium-bullets">
-                                    <li>eksport raportów PDF dostępny tylko w Premium,</li>
-                                    <li>czytelniejsze porządkowanie historii przyjęć i zdarzeń,</li>
-                                    <li>wygodniejsze śledzenie leczenia w dłuższym okresie.</li>
-                                </ul>
                             </div>
                         </article>
 
                         <article class="premium-row premium-row-reverse">
                             <div class="premium-media">
-                                <img src="assets/hero-phone.jpg" alt="Aplikacja DawkApp Premium bez reklam" class="premium-media-shot premium-media-phone">
+                                <div class="art-placeholder art-wide">
+                                    <span class="art-label">Placeholder PNG</span>
+                                    <strong>1200 × 900</strong>
+                                    <span>kafelek / brak reklam / transparent</span>
+                                </div>
                             </div>
                             <div class="premium-copy">
-                                <span class="premium-tag">Komfort korzystania</span>
-                                <h3>Bez reklam i z dostępem do dalszego rozwoju funkcji Premium</h3>
+                                <span class="premium-tag">Komfort</span>
+                                <h3>Bez reklam i z bardziej uporządkowanym doświadczeniem</h3>
                                 <p>
-                                    Premium upraszcza codzienne korzystanie z aplikacji i daje spokojniejsze środowisko
-                                    pracy, szczególnie wtedy, gdy DawkApp towarzyszy Ci każdego dnia.
+                                    Premium upraszcza codzienne korzystanie z aplikacji i daje spokojniejsze,
+                                    bardziej skupione środowisko pracy z lekami oraz planami.
                                 </p>
-                                <ul class="premium-bullets">
-                                    <li>brak reklam w trakcie korzystania z aplikacji,</li>
-                                    <li>bardziej skupione środowisko pracy z lekami i planami,</li>
-                                    <li>w wariancie lifetime pełny dostęp do przyszłych aktualizacji Premium.</li>
-                                </ul>
                             </div>
                         </article>
                     </div>
@@ -220,12 +228,10 @@
     <footer class="site-footer">
         <div class="shell footer-shell">
             <p class="footer-closing">Zadbaj o spokojniejsze dawkowanie bliskich z DawkApp.</p>
-
             <p class="footer-disclaimer">
                 *DawkApp wspiera organizację leczenia i przypomnień, ale nie stanowi porady medycznej,
                 diagnozy ani substytutu konsultacji z lekarzem lub farmaceutą.
             </p>
-
             <div class="footer-links">
                 <a href="privacy.html">Polityka Prywatności</a>
                 <a href="mailto:cjdevski@gmail.com">Kontakt</a>
