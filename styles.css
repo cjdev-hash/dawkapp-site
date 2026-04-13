@@ -151,36 +151,14 @@ a {
 
 .store-pill {
     display: inline-flex;
-    padding: 14px 22px;
-    border-radius: 999px;
-    background: linear-gradient(90deg, #3cbfbb 0%, #35aba8 100%);
-    box-shadow: 0 14px 28px rgba(36, 127, 123, 0.2);
-}
-
-.store-badge {
-    display: inline-flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    min-width: 272px;
-    min-height: 74px;
-    padding: 12px 30px;
-    border-radius: 12px;
-    background: #101214;
-    color: #ffffff;
-    text-align: center;
 }
 
-.store-badge-kicker {
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-}
-
-.store-badge-name {
-    font-size: 1.95rem;
-    font-weight: 800;
-    line-height: 1.04;
-    letter-spacing: -0.04em;
+.store-badge-image {
+    width: min(100%, 360px);
+    height: auto;
+    filter: drop-shadow(0 12px 22px rgba(36, 127, 123, 0.18));
 }
 
 .hero-note,
@@ -231,19 +209,15 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    margin: 0 auto 16px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 18px;
 }
 
 .feature-icon-svg {
-    width: 34px;
-    height: 34px;
-    fill: none;
-    stroke: #ffffff;
-    stroke-width: 3;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+    width: 68px;
+    height: 68px;
+    fill: #ffffff;
 }
 
 .feature-card h3 {
@@ -575,13 +549,8 @@ a {
     }
 
     .store-pill,
-    .store-badge {
+    .store-badge-image {
         width: 100%;
-        min-width: 0;
-    }
-
-    .store-badge-name {
-        font-size: 1.6rem;
     }
 
     .feature-phones {
@@ -620,6 +589,16 @@ a {
     .brand-mark-svg {
         width: 26px;
         height: 26px;
+    }
+
+    .feature-icon {
+        width: 68px;
+        height: 68px;
+    }
+
+    .feature-icon-svg {
+        width: 56px;
+        height: 56px;
     }
 
     .art-phone {
