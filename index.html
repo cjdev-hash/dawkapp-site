@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DawkApp | Ciepłe wsparcie w pilnowaniu dawek</title>
+    <title>DawkApp | Bezpieczniej dawkuj leki</title>
     <meta
         name="description"
-        content="DawkApp pomaga spokojnie pilnować dawek, przypomnień i planów dla Ciebie oraz Twoich bliskich. Prosto, ciepło i bez przytłaczania."
+        content="Poznaj DawkApp. Ciepla aplikacja do pilnowania dawek, przypomnien i planow dla calej rodziny."
     >
-    <meta name="theme-color" content="#3caea6">
+    <meta name="theme-color" content="#39b0aa">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -16,212 +16,151 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="page-shell">
-        <header class="site-header">
+    <header class="site-header">
+        <div class="shell nav-shell">
             <a class="brand" href="#top" aria-label="DawkApp">
                 <img src="assets/logo.png" alt="Logo DawkApp" class="brand-logo">
                 <span class="brand-wordmark">DawkApp</span>
             </a>
 
             <nav class="site-nav" aria-label="Glowna nawigacja">
+                <a href="#top" class="is-active">Glowna</a>
                 <a href="#features">Mozliwosci</a>
                 <a href="#premium">Premium</a>
                 <a href="#download">Pobierz</a>
-                <a href="privacy.html">Prywatnosc</a>
             </nav>
-        </header>
+        </div>
+    </header>
 
-        <main id="top">
-            <section class="hero warm-hero">
-                <div class="hero-copy">
-                    <p class="eyebrow">DawkApp</p>
-                    <h1>Spokojniejsze pilnowanie lekow dla Ciebie i Twoich bliskich.</h1>
-                    <p class="hero-lead">
-                        Ciepla aplikacja, ktora pomaga pamietac o dawkach, przypomnieniach i planach bez chaosu,
-                        stresu i zbednych ekranow.
-                    </p>
-
-                    <div class="hero-actions">
-                        <a
-                            class="button button-primary"
-                            href="https://play.google.com/store/apps/details?id=com.dobradawka.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Pobierz z Google Play
-                        </a>
-                        <a class="button button-secondary" href="privacy.html">Polityka prywatnosci</a>
-                    </div>
-
-                    <div class="hero-tags" aria-label="Najwazniejsze cechy">
-                        <span>Przypomnienia</span>
-                        <span>Rodzinne profile</span>
-                        <span>Bezpieczniejsze dawkowanie</span>
-                    </div>
+    <main id="top">
+        <section class="hero-section">
+            <div class="shell hero-layout">
+                <div class="hero-phone-wrap">
+                    <img src="assets/hero-phone.jpg" alt="Podglad aplikacji DawkApp" class="hero-phone">
                 </div>
 
-                <div class="hero-visual" aria-hidden="true">
-                    <div class="device-card">
-                        <div class="device-top"></div>
-                        <div class="device-screen">
-                            <img src="assets/logo.png" alt="" class="device-logo">
-                            <div class="device-line device-line-strong"></div>
-                            <div class="device-line"></div>
-                            <div class="device-line short"></div>
+                <div class="hero-copy">
+                    <h1>Poznaj DawkApp. Twoje leki pod pe&#322;n&#261; kontrol&#261;.</h1>
 
-                            <div class="device-pills">
-                                <span></span>
-                                <span></span>
-                                <span></span>
+                    <a
+                        class="play-cta"
+                        href="https://play.google.com/store/apps/details?id=com.dobradawka.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Zdob&#261;d&#378; w Google Play
+                    </a>
+
+                    <p class="hero-note">
+                        DawkApp wspiera organizacj&#281; leczenia i przypomnie&#324;, ale nie stanowi porady medycznej,
+                        diagnozy ani substytutu konsultacji z lekarzem lub farmaceut&#261;.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="wide-section">
+            <div class="shell">
+                <h2 class="section-title">Dlaczego DawkApp?</h2>
+
+                <div class="why-layout">
+                    <article class="why-column">
+                        <div class="why-icon">R</div>
+                        <h3>Monitoruj dla ca&#322;ej rodziny</h3>
+                        <p>Monitoruj dawkowanie dla wielu bliskich w jednym spokojnym miejscu.</p>
+                    </article>
+
+                    <div class="why-phones" aria-hidden="true">
+                        <img src="assets/screen-calendar.jpg" alt="" class="phone-shot phone-shot-front">
+                        <img src="assets/screen-database.jpg" alt="" class="phone-shot phone-shot-back">
+                    </div>
+
+                    <article class="why-column">
+                        <div class="why-icon">H</div>
+                        <h3>Bezpieczniejsza historia</h3>
+                        <p>Masz pod r&#281;k&#261; dawki, profile i porz&#261;dek, kiedy trzeba szybko sprawdzi&#263; plan leczenia.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="premium" class="premium-section">
+            <div class="shell">
+                <h2 class="section-title">Zwi&#281;ksz kontrol&#281; z DawkApp Premium</h2>
+
+                <div class="premium-box">
+                    <div class="premium-box-title">Premium</div>
+
+                    <div class="premium-grid">
+                        <div class="premium-list-col">
+                            <div class="premium-item">
+                                <strong>Pe&#322;na obs&#322;uga rodziny:</strong>
+                                <span>Monitoruj dawkowanie dla wielu bliskich bez ogranicze&#324; plan&#243;w.</span>
+                            </div>
+
+                            <div class="premium-item">
+                                <strong>Kontrola interakcji lek&#243;w:</strong>
+                                <span>Pomocnicze alerty o potencjalnych konfliktach i limitach.</span>
+                            </div>
+
+                            <div class="premium-item">
+                                <strong>Zaawansowane raporty:</strong>
+                                <span>Raporty PDF i wygodniejsza organizacja historii przyj&#281;&#263;.</span>
+                            </div>
+                        </div>
+
+                        <div class="premium-preview-col">
+                            <div class="premium-preview">
+                                <img src="assets/screen-tools.jpg" alt="Podglad narzedzi Premium w DawkApp">
+                            </div>
+                            <div class="premium-preview">
+                                <img src="assets/screen-database.jpg" alt="Podglad bazy lekow w DawkApp">
                             </div>
                         </div>
                     </div>
 
-                    <div class="soft-note note-one">dla rodziny</div>
-                    <div class="soft-note note-two">spokojniej</div>
-                    <div class="soft-note note-three">z troska</div>
-                </div>
-            </section>
-
-            <section id="features" class="section">
-                <div class="section-heading centered">
-                    <p class="eyebrow">Najwazniejsze</p>
-                    <h2>Malo tekstu, duzo ulgi.</h2>
-                </div>
-
-                <div class="comfort-grid">
-                    <article class="comfort-card">
-                        <div class="comfort-icon">01</div>
-                        <h3>Dla Ciebie</h3>
-                        <p>Latwiej zobaczyc, co juz bylo przyjete i co jeszcze czeka w planie dnia.</p>
-                    </article>
-
-                    <article class="comfort-card">
-                        <div class="comfort-icon">02</div>
-                        <h3>Dla bliskich</h3>
-                        <p>Profile i wspoldzielone plany pomagaja ogarnac leczenie dziecka, rodzica albo calej rodziny.</p>
-                    </article>
-
-                    <article class="comfort-card">
-                        <div class="comfort-icon">03</div>
-                        <h3>Dla spokoju</h3>
-                        <p>Przypomnienia, historia i ostrzezenia informacyjne pomagaja pilnowac porzadku bez paniki.</p>
-                    </article>
-                </div>
-            </section>
-
-            <section class="section story-section">
-                <div class="story-card">
-                    <div class="story-copy">
-                        <p class="eyebrow">Jak to brzmi w praktyce</p>
-                        <h2>Jedno miejsce na dawki, profile i codzienny rytm leczenia.</h2>
-                        <p>
-                            DawkApp nie chce byc zimnym narzedziem. Ma pomagac delikatnie: przypomniec, uporzadkowac,
-                            pokazac historie i dac Ci poczucie, ze wszystko jest pod reka.
-                        </p>
-                    </div>
-
-                    <div class="story-points">
-                        <div class="story-pill">czytelny kalendarz</div>
-                        <div class="story-pill">przyjazne profile</div>
-                        <div class="story-pill">wspoldzielone plany</div>
-                        <div class="story-pill">lokalne backupy</div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="premium" class="section">
-                <div class="section-heading centered">
-                    <p class="eyebrow">Premium</p>
-                    <h2>Troche wiecej przestrzeni dla rodzinnego ogarniania.</h2>
-                </div>
-
-                <div class="premium-panel">
-                    <div class="premium-copy">
-                        <h3>Gdy potrzebujesz wiecej niz podstawy</h3>
-                        <p>
-                            Premium odblokowuje szerszy rodzinny workflow: wiecej planow, latwiejsze wspoldzielenie,
-                            brak reklam i dodatkowe narzedzia organizacyjne.
-                        </p>
-                    </div>
-
-                    <ul class="premium-list">
-                        <li>nielimitowane plany</li>
-                        <li>wspoldzielenie z bliskimi</li>
-                        <li>brak reklam</li>
-                        <li>raporty PDF</li>
-                        <li>rozszerzona baza lekow</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="section privacy-soft">
-                <div class="privacy-soft-card">
-                    <div>
-                        <p class="eyebrow">Prywatnosc</p>
-                        <h2>Prywatne dane zostaja prywatne.</h2>
-                        <p>
-                            Dane lokalne zostaja na urzadzeniu. Do chmury trafia tylko to, co potrzebne do konta
-                            i planow wspoldzielonych.
-                        </p>
-                    </div>
-
-                    <a class="inline-link strong-link" href="privacy.html">Przeczytaj polityke prywatnosci</a>
-                </div>
-            </section>
-
-            <section id="download" class="section section-download">
-                <div class="download-card">
-                    <p class="eyebrow">Pobierz</p>
-                    <h2>Zacznij spokojniej pilnowac dawek juz dzis.</h2>
-                    <div class="hero-actions centered-actions">
+                    <div class="premium-cta-row">
                         <a
-                            class="button button-primary"
+                            class="soft-button"
                             href="https://play.google.com/store/apps/details?id=com.dobradawka.app"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Otworz w Google Play
+                            Pobierz Premium
                         </a>
                     </div>
-                    <p class="download-note">
-                        DawkApp wspiera organizacje przyjmowania lekow i ostrzezenia informacyjne. Nie zastepuje lekarza,
-                        farmaceuty ani profesjonalnej porady medycznej.
-                    </p>
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer">
-            <div class="footer-brand">
-                <img src="assets/logo.png" alt="" class="footer-logo">
-                <div>
-                    <strong>DawkApp</strong>
-                    <p>Pomaga spokojnie pilnowac leczenia w domu i w rodzinie.</p>
                 </div>
             </div>
+        </section>
 
-            <div class="footer-columns">
-                <div>
-                    <h3>Linki</h3>
-                    <a href="https://play.google.com/store/apps/details?id=com.dobradawka.app" target="_blank" rel="noopener noreferrer">Google Play</a>
-                    <a href="privacy.html">Polityka prywatnosci</a>
+        <section id="download" class="download-section">
+            <div class="shell download-shell">
+                <h2 class="section-title">Pobierz DawkApp ju&#380; dzi&#347;</h2>
+
+                <div class="download-row">
+                    <a
+                        class="play-cta compact"
+                        href="https://play.google.com/store/apps/details?id=com.dobradawka.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Zdob&#261;d&#378; w Google Play
+                    </a>
+
+                    <img src="assets/logo.png" alt="Logo DawkApp" class="download-logo">
                 </div>
 
-                <div>
-                    <h3>Kontakt</h3>
-                    <a href="mailto:cjdevski@gmail.com">cjdevski@gmail.com</a>
-                    <span>https://dawkapp.pl</span>
-                </div>
-
-                <div>
-                    <h3>Wydawca</h3>
-                    <span>DawkApp</span>
-                    <span>Adres podmiotu do uzupelnienia przed publikacja</span>
-                    <span>Dane rejestrowe do uzupelnienia przed publikacja</span>
-                </div>
+                <p class="download-copy">Zadbaj o spokojniejsze dawkowanie bliskich z DawkApp.</p>
             </div>
-        </footer>
-    </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="shell footer-shell">
+            <a href="privacy.html">Polityka Prywatnosci</a>
+            <a href="mailto:cjdevski@gmail.com">Kontakt</a>
+            <span>&copy; 2026 DawkApp</span>
+        </div>
+    </footer>
 </body>
 </html>
