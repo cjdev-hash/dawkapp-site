@@ -540,6 +540,10 @@ a {
         text-align: center;
     }
 
+    .store-pill {
+        align-self: center;
+    }
+
     .feature-phones {
         width: min(100%, 360px);
         margin: 0 auto;
